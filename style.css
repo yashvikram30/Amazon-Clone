@@ -1,3 +1,4 @@
+/* Stylesheet */
 *{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -152,4 +153,38 @@
     padding: 6px 0px;
     display:flex;
     align-items:flex-end;
+}
+
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.all{
+    padding: 8px 9px;
+    height: auto;
+    width: auto;
+    margin-left: 1rem;
+}
+.all span{
+    font-size: 14px;
+    font-weight: 700;
+}
+.itm{
+    margin: 5px 0 6px 0;
+    padding: 8px 9px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Hero section */
+.hero{
+    background-image: url("../04Amazon_Project/assets/hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+    width: auto;
 }
