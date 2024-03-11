@@ -22,7 +22,7 @@
     justify-content: center;
 }
 .logo{
-    background-image: url("../04Amazon_Project/assets/amazon_logo.png");
+    background-image: url("../Amazon-Clone/assets/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
@@ -183,10 +183,13 @@
 
 /* Hero section */
 .hero{
-    background-image: url("../04Amazon_Project/assets/hero_image.jpg");
+    background-image: url("../Amazon-Clone/assets/hero_image.jpg");
     background-size: cover;
     height: 600px;
     width: auto;
 }
 
-/* adding new changes */
+.link{
+    height: 40px;
+    background-color:#f5f6f6;
+}
