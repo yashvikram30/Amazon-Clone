@@ -196,6 +196,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
  .hero-msg{
@@ -216,13 +218,40 @@
 .shop-section{
     display: flex;
     justify-content: space-evenly; 
-    z-index: 10;
-    height: 200px;
+    flex-wrap: wrap;
+    height: auto;
     position: relative;
-    bottom: 22rem;
+    bottom: 15rem;
+    background-color: #e2e7e6;
 }
 
-/*
+
 .box{
-    border: 1px solid black;
-} */
+    /* border: 1px solid black; */
+    height: 375px;
+    width: 350px;
+    background-color: white;
+    padding: 15px 0 15px 0;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 10;
+}
+.box h3,a{
+    margin-left: 15px;
+}
+.box-itm-img{
+    height: 82%;
+    background-size: cover;
+    /* background-image: url("/assets/box1_image.jpg"); */
+    margin:15px 15px;
+    font-size: 21px;
+    color: #0f1111;
+}
+.img-msg{
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+    /* margin-bottom: 25px; */
+    cursor: pointer;
+    padding-bottom: 25px;
+}
