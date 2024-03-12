@@ -79,6 +79,9 @@
     text-align: center;
     border: none;
     line-height: 35px;
+    display: block;
+    top: 2.5px;
+    cursor: pointer;
 }
 .nav-search input{
     width:100%;
@@ -171,7 +174,7 @@
     margin-left: 1rem;
 }
 .all span{
-    font-size: 14px;
+    font-size: 0.85rem;
     font-weight: 700;
 }
 .itm{
@@ -181,15 +184,45 @@
     font-size: 14px;
 }
 
+/* Main Section */
+
 /* Hero section */
+
 .hero{
-    background-image: url("/assets/hero_image.jpg");
+    background-image: url("/assets/heronew.jpg");
     background-size: cover;
     height: 600px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.link{
+ .hero-msg{
     height: 40px;
     background-color:#f5f6f6;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+} 
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly; 
+    z-index: 10;
+    height: 200px;
+    position: relative;
+    bottom: 22rem;
+}
+
+/*
+.box{
+    border: 1px solid black;
+} */
