@@ -234,7 +234,7 @@
     padding: 15px 0 15px 0;
     margin-bottom: 25px;
     position: relative;
-    z-index: 10;
+    z-index: 2;
 }
 .box h3,a{
     margin-left: 15px;
