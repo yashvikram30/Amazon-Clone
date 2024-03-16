@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .logo{
-    background-image: url("/Projects/Amazon-Clone/assets/amazon_logo.png");
+    background-image: url("assets/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
@@ -194,7 +194,7 @@ main{
 /* Hero section */
 
 .hero{
-    background-image: url("/Projects/Amazon-Clone/assets/heronew.jpg");
+    background-image: url("assets/heronew.jpg");
     background-size: cover;
     height: 600px;
     width: auto;
