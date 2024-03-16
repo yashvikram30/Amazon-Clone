@@ -312,27 +312,33 @@ footer{
 
 .foot-panel1{
     color: white;
-    background-color: #232f3e;
+    background-color: #41566e;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
-}
-.foot-panel1 p{
     cursor: pointer;
+}
+.foot-panel1 a{
+    text-decoration: none;
+    color: white;
+}
+.foot-panel1:hover{
+    background-color:#556b86 ;
 }
 
 .foot-panel2{
     display: flex;
     color: white;
     justify-content: center;
-    background-color: #0f1111;
+    background-color: #232F3E;;
     height: 400px;
 }
 ul{
     margin-top: 80px;
     padding: 0 10px;
+    margin-left: 35px;
 }
 .ul-para{
     font-weight: 700;
@@ -345,4 +351,7 @@ ul a{
     text-decoration: none;
     color: #dddddd;
     font-size: 0.85rem;
+}
+ul a:hover{
+    text-decoration: underline;
 }
