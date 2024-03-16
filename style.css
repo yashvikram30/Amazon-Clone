@@ -384,7 +384,7 @@ ul a:hover{
     align-items: center;
 }
 .ftlogo{
-    background-image: url("/Projects/Amazon-Clone/assets/amazon_logo.png");
+    background-image: url("assets/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
