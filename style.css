@@ -1,3 +1,4 @@
+
 /* Stylesheet */
 *{
     margin:0;
@@ -22,7 +23,7 @@
     justify-content: center;
 }
 .logo{
-    background-image: url("/assets/amazon_logo.png");
+    background-image: url("/Projects/Amazon-Clone/assets/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
@@ -186,10 +187,14 @@
 
 /* Main Section */
 
+main{
+    height: 1210px;
+}
+
 /* Hero section */
 
 .hero{
-    background-image: url("/assets/heronew.jpg");
+    background-image: url("/Projects/Amazon-Clone/assets/heronew.jpg");
     background-size: cover;
     height: 600px;
     width: auto;
@@ -198,6 +203,10 @@
     align-items: center;
     position: relative;
     z-index: 1;
+}
+
+.shop-section a{
+    margin-left: 15px;
 }
 
  .hero-msg{
@@ -236,7 +245,7 @@
     position: relative;
     z-index: 2;
 }
-.box h3,a{
+.box h3{
     margin-left: 15px;
 }
 .box-itm-img{
@@ -254,4 +263,86 @@
     /* margin-bottom: 25px; */
     cursor: pointer;
     padding-bottom: 25px;
+}
+
+
+/* section */
+
+
+.sign-in{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-p1{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.sign-in button{
+    height: 28px;
+    width: 238px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ffcc4e;
+    border-color: #ffc635;
+    text-shadow: 0 1px 0 #ffe093;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sign-in-p2{
+    margin-top: 5px;
+    font-size: 11px;
+}
+.sign-in a{
+    color: #007185;
+    text-decoration: none;
+}
+hr{
+    color: gray;
+    height: 1px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    color: white;
+    background-color: #232f3e;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel1 p{
+    cursor: pointer;
+}
+
+.foot-panel2{
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: #0f1111;
+    height: 400px;
+}
+ul{
+    margin-top: 80px;
+    padding: 0 10px;
+}
+.ul-para{
+    font-weight: 700;
+    margin: 6px 0 14px 0;
+}
+ul a{
+    
+    display: flex;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 0.85rem;
 }
