@@ -222,7 +222,12 @@ main{
 .hero-msg a{
     color: #007185;
     text-decoration: none;
-} 
+}
+
+.hero-msg a:hover{
+    color: red;
+    text-decoration: underline
+}
 
 .shop-section{
     display: flex;
@@ -299,6 +304,10 @@ main{
     color: #007185;
     text-decoration: none;
 }
+.sign-in a:hover{
+    color: red;
+}
+
 hr{
     color: gray;
     height: 1px;
@@ -310,6 +319,7 @@ footer{
     margin-top: 15px;
 }
 
+/* panel1 */
 .foot-panel1{
     color: white;
     background-color: #41566e;
@@ -328,11 +338,12 @@ footer{
     background-color:#556b86 ;
 }
 
+/* panel2 */
 .foot-panel2{
     display: flex;
     color: white;
     justify-content: center;
-    background-color: #232F3E;;
+    background-color: #232F3E;
     height: 400px;
 }
 ul{
@@ -353,5 +364,51 @@ ul a{
     font-size: 0.85rem;
 }
 ul a:hover{
+    text-decoration: underline;
+}
+
+/* panel3 */
+
+/* .hrpanel3{
+    background-color: white;
+    color: white;
+    height: 0.1px;
+} */
+
+.foot-panel3{
+    height: 70px;
+    background-color:#232F3E;
+    border-top: 0.05px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftlogo{
+    background-image: url("/Projects/Amazon-Clone/assets/amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+/* panel4 */
+.foot-panel4{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+    font-size: 12px;
+}
+.foot-panel4>:nth-child(1){
+    margin-bottom: 5px;
+}
+.foot-panel4 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 3px;
+}
+.foot-panel4 a:hover{
     text-decoration: underline;
 }
