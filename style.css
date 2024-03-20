@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .logo{
-    background-image: url("assets/amazon_logo.png");
+    background-image: url("/assets/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
@@ -194,7 +194,7 @@ main{
 /* Hero section */
 
 .hero{
-    background-image: url("assets/heronew.jpg");
+    background-image: url("/assets/heronew.jpg");
     background-size: cover;
     height: 600px;
     width: auto;
@@ -384,7 +384,7 @@ ul a:hover{
     align-items: center;
 }
 .ftlogo{
-    background-image: url("assets/amazon_logo.png");
+    background-image: url("/assets/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
